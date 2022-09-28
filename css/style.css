@@ -69,12 +69,13 @@ header h1{
     padding-bottom: 1rem;
 }
 header h1::before{
-    content: url(../favicon/favicon-32x32.png);
+    content: url(../favicon/favicon-32x32.png) ;
     vertical-align: -0.2rem;
     margin-right: 2rem;
     object-fit: contain;
+    
 }
- h2::before{
+h2::before{
     content: url(../favicon/favicon-32x32.png);
     vertical-align: -.8rem;
     margin-right: .6rem;
@@ -168,6 +169,9 @@ section p, nav{
 
 footer p{
     text-align: center;
+}
+footer{
+    border-radius: 1rem;
 }
 
 ul li :last-child{
