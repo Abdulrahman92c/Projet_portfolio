@@ -9,9 +9,18 @@ body{
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
 }
+h1{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+   
+}
+img{
+
+}
+
 /* theme */
 
-nav {
+nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -45,8 +54,21 @@ nav ul li{
 nav ul li:hover{
     border-bottom-color: #000;
 }
-  
 
+.page-content{
+    margin: 4rem;
+}
+.page-content header{
+    margin-top: 5rem;
+    max-width: 80rem;
+}
+.page-content header h1{
+ text-transform: uppercase;
+ font-size: 8rem;
+}
+.page-content header p{
+
+}
 
 /* pour les mobile */
 @media screen and (max-width : 700px){
