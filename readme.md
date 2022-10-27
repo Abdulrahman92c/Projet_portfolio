@@ -9,6 +9,6 @@ Dans ce portfolio, vous allez en apprendre un peu plus sur un élève très char
  Soyez prêts à le voir, mettez vos lunettes, prenez du recul ça éblouis.
  
 
-<br>!["Moi"](./asset/profil.jpg)
+<br>!["Moi"](./asset/profile.jpg)
 
 [Venez voir plus de détails](https://abdulrahman92c.github.io/Projet_portfolio/)
