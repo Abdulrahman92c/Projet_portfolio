@@ -8,6 +8,8 @@ body{
     padding: 0 .2rem;
     margin: 0;
     font: 1.6rem 'Noto Sans JP', sans-serif;
+    /* overflow-y: hidden ; */
+    scroll-behavior: smooth;
 }
 h1{
     margin: 0;
@@ -22,7 +24,9 @@ a{
     text-decoration-color: none;
     color: #000;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 /* theme */
 
 nav{
