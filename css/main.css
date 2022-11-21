@@ -16,9 +16,9 @@ h1{
     font-family: 'Oswald', sans-serif;
    
 }
-img{
+/* img{
 
-}
+} */
 a{
     text-decoration: none;
     text-decoration-color: none;
@@ -112,6 +112,32 @@ nav ul li:hover{
     
 }
 
+.page-content .projects-section .projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+.page-content .projects-section .project {
+	margin-right: 20px;
+	max-width: 195px;
+}
+.page-content .projects-section .project h4 {
+	margin: 0;
+}
+.page-content .projects-section .project .description   {
+	font-size: .5rem;
+}
+section ul{
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 5rem;
+    padding-left: 0rem;
+    list-style: none;
+}
+
+.page-content .projects-section .project .dates {
+	font-size: 13px;
+	color: rgb(145, 145, 145);
+}
 /* pour les mobile */
 @media screen and (max-width : 700px){
 nav{
