@@ -138,6 +138,13 @@ section ul{
 	font-size: 13px;
 	color: rgb(145, 145, 145);
 }
+.page-content .projects-section .project .description img{
+    height: 100px;
+    width: 100px;
+}
+.page-content .projects-section .project h4{
+    text-align: center;
+}
 /* pour les mobile */
 @media screen and (max-width : 700px){
 nav{
