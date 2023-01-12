@@ -16,9 +16,13 @@ h1{
     font-family: 'Oswald', sans-serif;
    
 }
-/* img{
-
-} */
+img{
+    height:100%;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    object-fit: cover;
+}
 a{
     text-decoration: none;
     text-decoration-color: none;
@@ -30,6 +34,7 @@ a{
 /* theme */
 main{
     width: 120rem;
+    margin: 0 auto;
 }
 nav{
     display: flex;
@@ -108,7 +113,7 @@ nav ul li:hover{
 	height: auto;
     padding-left: 7rem;
 }
-.page-content .projects-section h2 {
+.page-content .projects-section h2{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-size: 3.5rem;
@@ -141,6 +146,21 @@ section ul{
     padding-left: 7rem;
     list-style: none;
 }
+ul figure{
+    padding: 1rem;
+}
+ul li figure figcaption h3 {
+   text-align: center;
+}
+.projects-section2 ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.projects-section2 ul li:nth-child(5){ /* 1 image sur  3 colonne */
+    grid-column:  1 / 4;
+}
 
 .page-content .projects-section .project .dates {
 	font-size: 13px;
@@ -154,6 +174,25 @@ section ul{
 .page-content .projects-section .project h3{
     text-align: left;
 }
+footer {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+}
+footer 2. p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+footer  p:hover {
+	color: #fff;
+}
+
+
 /* pour les mobile */
 @media screen and (max-width : 700px){
 nav{
