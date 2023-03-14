@@ -89,7 +89,6 @@ nav ul li:hover{
     line-height: 3rem;
 	color: #686868;
 }
-
 .page-content header button {
 	background-color: inherit;
 	border: none;
@@ -120,10 +119,7 @@ nav ul li:hover{
 	font-size: 3.5rem;
     padding-top: 2rem;
     padding-left: 7rem;
-    
-    
 }
-
 .page-content .projects-section .projects {
 	display: flex;
 	flex-wrap: wrap;
@@ -135,11 +131,22 @@ nav ul li:hover{
 .page-content .projects-section .project h3 {
 	margin-right: -5rem;
     padding-left: 7rem;
+    text-align: left;
+}
+.page-content .projects-section .project .dates {
+	font-size: 13px;
+	color: #686868;
+    padding-left: 7rem;
 }
 .page-content .projects-section .project .description   {
 	font-size: .5rem;
     padding-left: 7rem;
 }
+.page-content .projects-section .project .description img{
+    height: 100px;
+    width: 100px;
+}
+
 section ul{
     font-size: 1.6rem;
     text-align: left;
@@ -167,26 +174,38 @@ ul li figure figcaption h3 {
     padding-top: 2rem;
     padding-left: 7rem;
 }
+.projects-section2 p{
+    line-height: 3rem;
+	color: #686868;
+    text-align: justify;
+    margin-left: 7rem ;
+}
 .projects-section2 ul li:nth-child(5){ /* 1 image sur  3 colonne */
     grid-column:  1 / 4;
 }
-
-.page-content .projects-section .project .dates {
-	font-size: 13px;
+.projects-section3 ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.projects-section3 p{
+    line-height: 3rem;
 	color: #686868;
+    text-align: justify;
+    margin-left: 7rem ;
+}
+.projects-section3 h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    padding-top: 2rem;
     padding-left: 7rem;
 }
-.page-content .projects-section .project .description img{
-    height: 100px;
-    width: 100px;
+.projects-section3 ul li:nth-child(5){ /* 1 image sur  3 colonne */
+    grid-column:  1 / 4;
 }
-.page-content .projects-section .project h3{
-    text-align: left;
-}
-.page-content .projects-section .projects .project .bts h3{
-   margin-top: 5rem;
-   
-}
+
 footer {
 	margin-top: 5%;
 	display: flex;
