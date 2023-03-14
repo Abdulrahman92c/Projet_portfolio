@@ -27,6 +27,7 @@ a{
     text-decoration: none;
     text-decoration-color: none;
     color: #000;
+    
 }
 ::-webkit-scrollbar {
     display: none;
@@ -97,12 +98,12 @@ nav ul li:hover{
 	font-size: 1.5rem;
 	font-weight: bold;
 	padding-bottom: .1rem;
-	border-bottom: 1rem solid #ccc;
+	border-bottom: 1rem solid #686868;
 	cursor: pointer;
    
 }
 .page-content header button:hover {
-	color: #818181;
+	color: #686868;
 	border-bottom-color: #000;
 }
 .page-content .presentation-image {
@@ -152,11 +153,19 @@ ul figure{
 ul li figure figcaption h3 {
    text-align: center;
 }
+
 .projects-section2 ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     padding: 1rem;
+}
+.projects-section2 h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    padding-top: 2rem;
+    padding-left: 7rem;
 }
 .projects-section2 ul li:nth-child(5){ /* 1 image sur  3 colonne */
     grid-column:  1 / 4;
@@ -164,7 +173,7 @@ ul li figure figcaption h3 {
 
 .page-content .projects-section .project .dates {
 	font-size: 13px;
-	color: rgb(145, 145, 145);
+	color: #686868;
     padding-left: 7rem;
 }
 .page-content .projects-section .project .description img{
@@ -173,6 +182,10 @@ ul li figure figcaption h3 {
 }
 .page-content .projects-section .project h3{
     text-align: left;
+}
+.page-content .projects-section .projects .project .bts h3{
+   margin-top: 5rem;
+   
 }
 footer {
 	margin-top: 5%;
@@ -183,15 +196,11 @@ footer {
 	background-color: #000;
 	color: white;
 }
-footer 2. p {
+footer a{
 	font-size: 12px;
 	color: #ccc;
 	cursor: pointer;
 }
-footer  p:hover {
-	color: #fff;
-}
-
 
 /* pour les mobile */
 @media screen and (max-width : 700px){
