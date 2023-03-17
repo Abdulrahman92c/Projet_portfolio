@@ -45,6 +45,7 @@ nav{
     position: sticky;;
     top:0;
     background-color: #ccc;
+    z-index: 5;
 
 }
 nav .profile{
@@ -80,10 +81,17 @@ nav ul li:hover{
     margin-top: 5rem;
     max-width: 80rem;
     padding-left: 7rem;
+
 }
 .page-content header h1{
  text-transform: uppercase;
  font-size: 6rem;
+ transition: all ease 1s;
+}
+.page-content header h1:hover{
+    transform: translate(21rem);
+    transition: all ease 1s;
+
 }
 .page-content header p{
     line-height: 3rem;
@@ -112,6 +120,11 @@ nav ul li:hover{
 	max-width: 100rem;
 	height: auto;
     padding-left: 7rem;
+    transition: all ease 1s;
+}
+.page-content .presentation-image img:hover {
+   transform: scale(.9);
+   transition: all ease 1s;
 }
 .page-content .projects-section h2{
 	font-family: 'Oswald', sans-serif;
@@ -174,6 +187,13 @@ ul li figure figcaption h3 {
 .projects-section2 ul li:nth-child(5){ /* 1 image sur  3 colonne */
     grid-column:  1 / 4;
 }
+.projects-section2 ul li img{
+    transition: all ease 1s;
+}
+.projects-section2 ul li img:hover{
+    transform: scale(.9);
+    transition: all ease .7s;
+}
 .projects-section3 ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -195,6 +215,16 @@ ul li figure figcaption h3 {
 }
 .projects-section3 ul li:nth-child(5){ /* 1 image sur  3 colonne */
     grid-column:  1 / 4;
+}
+.projects-section3 ul li img{
+    transition: all ease 1s;
+}
+.projects-section3 ul li img:hover{
+    transform: scale(.9);
+    transition: all ease .7s;
+}
+.projects-section3 ul :nth-child(3)>figure>a>img{
+    border-radius: 2rem;
 }
 
 footer {
