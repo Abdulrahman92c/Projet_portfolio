@@ -89,7 +89,7 @@ nav ul li:hover{
     line-height: 3rem;
 	color: #686868;
 }
-.page-content header button {
+.page-content header a {
 	background-color: inherit;
 	border: none;
 	outline: none;
@@ -101,7 +101,7 @@ nav ul li:hover{
 	cursor: pointer;
    
 }
-.page-content header button:hover {
+.page-content header a:hover {
 	color: #686868;
 	border-bottom-color: #000;
 }
