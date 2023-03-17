@@ -46,7 +46,6 @@ nav{
     top:0;
     background-color: #ccc;
     z-index: 5;
-
 }
 nav .profile{
     display: flex;
@@ -84,9 +83,9 @@ nav ul li:hover{
 
 }
 .page-content header h1{
- text-transform: uppercase;
- font-size: 6rem;
- transition: all ease 1s;
+    text-transform: uppercase;
+    font-size: 6rem;
+    transition: all ease 1s;
 }
 .page-content header h1:hover{
     transform: translate(21rem);
@@ -107,7 +106,6 @@ nav ul li:hover{
 	padding-bottom: .1rem;
 	border-bottom: 1rem solid #686868;
 	cursor: pointer;
-   
 }
 .page-content header a:hover {
 	color: #686868;
