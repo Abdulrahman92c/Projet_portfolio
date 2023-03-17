@@ -138,15 +138,21 @@ nav ul li:hover{
 	color: #686868;
     padding-left: 7rem;
 }
-.page-content .projects-section .project .description   {
-	font-size: .5rem;
+.page-content .projects-section .project2 {
+	margin-right: 20px;
+	max-width: 195px;
+    padding-top: 1rem;
+}
+.page-content .projects-section .project2 h3 {
+	margin-right: -5rem;
+    padding-left: 7rem;
+    text-align: left;
+}
+.page-content .projects-section .project2 .dates {
+	font-size: 13px;
+	color: #686868;
     padding-left: 7rem;
 }
-.page-content .projects-section .project .description img{
-    height: 100px;
-    width: 100px;
-}
-
 section ul{
     font-size: 1.6rem;
     text-align: left;
