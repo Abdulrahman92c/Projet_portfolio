@@ -2,6 +2,7 @@
 /*reset */
 html{
     font-size: 62.5%; /* 16 px * 62.5 % = 1.000 rem */
+    scroll-behavior: smooth;
     
 }
 body{
@@ -71,6 +72,9 @@ nav ul li{
 }
 nav ul li:hover{
     border-bottom-color: #000;
+}
+ul{
+    list-style-type: none;
 }
 
 .page-content{
